@@ -15,4 +15,5 @@ class UserTest {
         user1.receiveTransaction(50,"","");
         assertEquals(150,user1.getUserBalance());
     }
+
 }

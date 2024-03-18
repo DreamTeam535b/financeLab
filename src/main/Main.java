@@ -144,6 +144,11 @@ public class Main {
                     System.out.println(user.viewExpenseInfo());
                     break;
                 }
+                case "test":{
+                    SwingGUI r = new SwingGUI(users);
+                    r.AccountManagementGUI();
+                    break;
+                }
                 case "show income": {
                     if (user == null)
                     {
@@ -163,3 +168,4 @@ public class Main {
 
     }
 }
+
